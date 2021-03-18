@@ -101,22 +101,30 @@ def openFile():
 
         if type == 0:
             #far left:
-            notesLeft.append(round(time*1000))
+            addTime = round(time*1000)
+            if not addTime in notesLeft:
+                notesLeft.append(addTime)
             continue
 
         elif type == 1:
             #middle left:
-            notesMidLeft.append(round(time*1000))
+            addTime = round(time*1000)
+            if not addTime in notesMidLeft:
+                notesMidLeft.append(addTime)
             continue
 
         elif type == 2:
             #middle right:
-            notesMidRight.append(round(time*1000))
+            addTime = round(time*1000)
+            if not addTime in notesMidRight:
+                notesMidRight.append(addTime)
             continue
 
         elif type == 3:
             #far right
-            notesRight.append(round(time*1000))
+            addTime = round(time*1000)
+            if not addTime in notesRight:
+                notesRight.append(addTime)
             continue
 
         else:
