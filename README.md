@@ -86,7 +86,7 @@ REQUIREMENTS:
 
 -Only 1 function per dll file. I know its stupid but thats how it is due to the way I load the mods.
 
--The function MUST take a double or integer value and MUST RETURN an Integer value.
+-The function must take 2 string values and MUST RETURN an Integer value (Wether successful execution of the mod or not, to prevent the game from crashing).
 
 -The dll files can use libraries or web requests. (For example rich presence or other system stuff)
 
