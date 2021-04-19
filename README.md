@@ -22,3 +22,6 @@ For the most part, you don't need this, unless you want to manipulate or create 
 **song.ogg** : the song file in ogg format. Has to be in the same folder as map.ini
 
 *optional:* **cover.jpg** : a song cover artwork. If none is provided, the game will use a default background.
+
+
+##Mods
