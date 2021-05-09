@@ -16,7 +16,8 @@ The **map.ini** is based on the ini structure and contains the following keys:
 	songlength = Length of the song in seconds:INT
 	converted = Tells the game wether or not the map is using lowercase keys:INT
 
-For the most part, you don't need this, unless you want to manipulate or create maps.
+For the most part, you don't need this, unless you want to manipulate or create maps. Keep in mind: if you set "converted = 1", the game will use all-lowercase ini-keys.
+If it is set to 0, it will use camelCase keys: eg. songName
 
 ## Other files used for custom maps
 **song.ogg** : the song file in ogg format. Has to be in the same folder as map.ini
