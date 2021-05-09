@@ -28,7 +28,6 @@ For the most part, you don't need this, unless you want to manipulate or create 
 
 Mods are supported by the game. Below, you will find a short copy of the mod help file included in the game folder:
 
-
 ###########################
 DISCLAIMER: ADD DLLs AT YOUR OWN RISK! THEY CAN CONTAIN MALICIOUS CODE!
 ###########################
@@ -102,3 +101,8 @@ The current game API bumps the mods everytime it changes rooms.
 It will pass 2 string parameters:
 If the player is playing a song, the first parameter will contain the song name, the second will be the song artist. If in any other room, it will pass 2x "Menu".
 The API may change in the future.
+
+# Using Undertale Mod Tool
+
+The game was compiled using GameMaker Studio 1.4 default compiler (not YYC) so you can also use the Undertale Mod Tool to make changes
+directly to the data.win
