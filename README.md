@@ -68,10 +68,25 @@ fnames = ["empty"] <-- if it says empty as it says here, change the values to th
 funcnames = ["none"] <-- edit this to whatever the function is called in your dll file. I recommend using the same name as the dll filename itself when compiling the dll.
 		         the same rules for editing and multiple files also apply here.
 
+onstart = ["empty"] <-- These mods are only bumped at the start of the game, they get passed a macro that can be specified in "osvalues"
+
+
+osnames = ["none"] <-- the same as funcnames but for onstart mods
+
+
+osvalues = ["none"] <-- Put the macro you want to pass to your mod here
+
+
 
 Step 3: Start the game. It should say it successfully loaded your mods now.
 
+## macro list
 
+all macros pass strings to the dll:
+
+"gmversion" : the current gameversion
+
+"discordid" : the game's discord identifier used to connect to rpc
 
 
 
