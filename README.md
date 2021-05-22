@@ -138,3 +138,5 @@ Attribution — You must give appropriate credit, provide a link to the license,
 NonCommercial — You may not use the material for commercial purposes.
 
 ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+All 3rd party extensions, libraries and includes belong to their respective owners. You may not change them unless you get the legal right to.
